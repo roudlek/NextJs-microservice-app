@@ -1,9 +1,13 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
+import Navbar from '../components/Navbar/Navbar';
+
+
 
 export default function Home() {
   return (
     <div className={styles.container}>
+      <Navbar/>
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
@@ -11,7 +15,7 @@ export default function Home() {
 
       <main>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Read <a href="/posts/first-post">this page</a>
         </h1>
 
         <p className={styles.description}>
@@ -129,3 +133,5 @@ export default function Home() {
     </div>
   );
 }
+
+
