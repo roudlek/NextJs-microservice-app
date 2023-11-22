@@ -8,7 +8,7 @@ import SingleProductPage from "components/sub_components/singleProductPage"
 export default function bunch(){
     return(
         <>
-        {/* <Navbar/> */}
+        <Navbar/>
         <div className="max-w-[2000px] m-auto"> 
         {/* this is a costum max size max-w-screen-8xl */}
 
