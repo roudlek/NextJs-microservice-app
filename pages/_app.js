@@ -1,5 +1,5 @@
 // These styles apply to every route in the application
-// import 'styles/global.css'
+import 'styles/global.css'
 import 'tailwindcss/tailwind.css'
 
  
