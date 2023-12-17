@@ -22,7 +22,7 @@ const people = [
 import Navbar from "components/Navbar/Navbar"
 import Image from "next/image"
 
-export default function Hero(){
+export default function Listofpeople(){
   return (
     <>
     <Navbar/>

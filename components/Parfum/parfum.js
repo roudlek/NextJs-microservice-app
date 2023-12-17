@@ -14,8 +14,6 @@ const MobileParfumImage = dynamic(() => import('./MobileParfumImage'), {
 })
 
 function Parfum() {
-
-
   const isMobile = useMediaQuery({ maxWidth: 959 });
 
   return (

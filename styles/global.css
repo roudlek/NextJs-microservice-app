@@ -4,7 +4,9 @@
 html {
   width: 100%;
   height: 100%;
-  background-color: hsl(30, 38%, 92%);
+  background-color: hsl(0, 0%, 42%);
+  /* background-color: hsl(30, 38%, 92%); */
+
 }
 /* html,
 body {

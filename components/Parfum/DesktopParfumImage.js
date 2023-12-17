@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-function DesktopParfumImage() {
+export default function DesktopParfumImage() {
   return (
       <Image
         className="w-full min-h-full object-cover rounded-l-lg"
@@ -12,5 +12,3 @@ function DesktopParfumImage() {
       />
   );
 }
-
-export default DesktopParfumImage;
