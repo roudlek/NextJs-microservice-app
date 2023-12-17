@@ -1,11 +1,11 @@
 import Navbar from "../components/Navbar/Navbar";
 import Header from "../components/Header.js";
 import Parfum from "components/Parfum/parfum";
-import Title from "components/learn/props/title";
 import ListOfProducts from "components/learn/map/listOfProducts";
 import UseStateHookComponent from "components/learn/allHooks/useStateHookComponent";
+import Title from "../components/learn/props/title/Title" 
 
-const names = ['Mike', 'Jimmie', 'nova', 'yasuo']
+// const names = ['Mike', 'Jimmie', 'nova', 'yasuo']
 
 export default function Home() {
   return (
