@@ -1,42 +1,26 @@
-/* @tailwind base;
+@tailwind base;
 @tailwind components;
-@tailwind utilities; */
-html {
-  width: 100%;
-  height: 100%;
-  background-color: hsl(0, 0%, 42%);
-  /* background-color: hsl(30, 38%, 92%); */
+@tailwind utilities;
 
-}
-/* html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family:
-  Inter,
-    -apple-system,
-    BlinkMacSystemFont,
-    Segoe UI,
-    Roboto,
-    Oxygen,
-    Ubuntu,
-    Cantarell,
-    Fira Sans,
-    Droid Sans,
-    Helvetica Neue,
-    sans-serif;
+/* add the global stylr you like using tailwindCss or css*/
+@layer base {
+  /* h1 {
+    @apply font-extrabold bg-primary-darkCyan text-red-600 min-w-max text-2xl	;
+    
+  }
+  h2 {
+    @apply text-xl;
+  } */
+  /* ... */
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
+*{
   box-sizing: border-box;
 }
+html {
+  width: 100%;
+  /* height: 100%; */
+  /* background-color: hsl(0, 0%, 42%); */
+  background-color: hsl(30, 38%, 92%);
 
-img {
-  max-width: 100%;
-  height: auto;
-} */ 
+}

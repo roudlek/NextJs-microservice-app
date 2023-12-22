@@ -31,7 +31,7 @@ export default function NikeFromNike() {
         <div className="mt-3 ml-3 mr-3">
           <div className="text-red-800 font-medium">Coming Soon</div>
           <div className="bg-white text-black font-semibold">Nike Dunk Low</div>
-          <div className="text-gray-500 font-light">Big Kids' Shoes</div>
+          <div className="text-gray-500 font-light">Big Kids Shoes</div>
           <div className="text-gray-500 font-light">1 Color</div>
           <div className="text-black font-semibold my-1.5">$90</div>
         </div>

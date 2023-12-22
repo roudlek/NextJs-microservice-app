@@ -1,10 +1,10 @@
 import Navbar from "components/Navbar/Navbar"
-import ChitchatButton from "components/sub_components/chitchatbutton"
-import LongCard from "components/sub_components/longcard"
-import MyCard from "components/sub_components/mycard"
+// import ChitchatButton from "components/sub_components/chitchatbutton"
+// import LongCard from "components/sub_components/longcard"
+// import MyCard from "components/sub_components/mycard"
 import NikeFromNike from "components/sub_components/nikefromnike"
-import NikeShoe from "components/sub_components/nikeshoe"
-import SingleProductPage from "components/sub_components/singleProductPage"
+// import NikeShoe from "components/sub_components/nikeshoe"
+// import SingleProductPage from "components/sub_components/singleProductPage"
 export default function bunch(){
     return(
         <>

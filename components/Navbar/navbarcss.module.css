@@ -25,8 +25,8 @@
 
 /* Hover effect for the links */
 .navbar a:hover {
-  background-color: blue;
-  color: red;
+  background-color: #fff;
+  color: #333;
   font-weight: bold;
   padding: 10px 20px;
 }
