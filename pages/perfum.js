@@ -1,7 +1,7 @@
 import Navbar from "components/Navbar/Navbar";
 import Parfum from "components/Parfum/parfum";
 
-function PerfumPage() {
+function perfum() {
   return(
     <>
         <Navbar/>
@@ -11,4 +11,4 @@ function PerfumPage() {
   )
     }
 
-export default PerfumPage;
+export default perfum;

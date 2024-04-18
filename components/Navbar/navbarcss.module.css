@@ -1,6 +1,6 @@
 /* Style for the navigation menu */
 .navbar {
-  background-color: #333;
+  background-color: #FFFFFF;
   display: flex;
   justify-content: space-around;
   padding: 10px 0;
@@ -17,17 +17,17 @@
 /* Style for the links */
 .navbar a {
   text-decoration: none;
-  color: #fff;
-  font-weight: bold;
+  color: #000000;
+  font-weight: 350;
   padding: 10px 20px;
-  transition: background-color 0.3s;
+  transition: background-color 0.8s;
 }
 
 /* Hover effect for the links */
 .navbar a:hover {
   background-color: #fff;
-  color: #333;
-  font-weight: bold;
+  background-color: #dadada;
+  /* font-weight: bold; */
   padding: 10px 20px;
 }
 

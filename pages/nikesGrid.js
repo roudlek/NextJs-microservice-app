@@ -5,11 +5,11 @@ import Navbar from "components/Navbar/Navbar"
 import NikeFromNike from "components/sub_components/nikefromnike"
 // import NikeShoe from "components/sub_components/nikeshoe"
 // import SingleProductPage from "components/sub_components/singleProductPage"
-export default function bunch(){
+export default function nikesGrid(){
     return(
         <>
         <Navbar/>
-        <div className="max-w-[2000px] m-auto"> 
+        <div className="max-w-[2000px] m-auto "> 
         {/* this is a costum max size max-w-screen-8xl */}
 
         {/* <SingleProductPage/> */}
@@ -32,9 +32,9 @@ export default function bunch(){
 
 
         <NikeShoe/>
-        <MyCard/>     
-        <ChitchatButton/>
-        <LongCard/> */}
+ */
+        
+        }
         </div>
         </>
     ) 
